@@ -1,16 +1,21 @@
-*{
+/*TODO:regole  */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-header{
+.font-wei-bold:hover {
+    font-weight: bold;
+}
+
+header {
     display: flex;
     justify-content: space-around;
     align-content: center;
     background-color: rgb(237, 194, 194);
     color: black;
-    font-weight: bold;
+
 }
 
 .row {
@@ -30,14 +35,38 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    width: 40%;
 }
 
 .col-menu-left ul {
-    width: 25%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    padding-left: 2%;
+    padding-left: 3%;
+}
+
+
+.col-menu-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+}
+
+.col-menu-right ul {
+    idth: 69%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding-right: 3%;
+}
+
+.button-right button {
+    padding: 8px 10px;
+    border: 1px solid rgba(49, 97, 224, 255);
+    background-color: white;
+    font-weight: bolder;
 }
