@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgba(49, 97, 224, 255);
+    color: white;
+}
+
+.row {
+    width: 85%;
+    display: flex;
+    align-items: center;
+}
+
+.col-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.col-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.col-menu ul {
+    width: 100%;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 1%;
+}
