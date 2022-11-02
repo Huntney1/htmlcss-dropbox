@@ -8,12 +8,13 @@ header{
     display: flex;
     justify-content: space-around;
     align-content: center;
-    background-color: rgba(49, 97, 224, 255);
+    background-color: rgb(237, 194, 194);
     color: black;
 }
 
 .row {
-    width: 85%;
+    width: 99%;
+    height: 4em;
     display: flex;
     align-items: center;
 }
@@ -22,7 +23,7 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
+color
 }
 
 .col-menu {
