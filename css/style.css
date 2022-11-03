@@ -107,7 +107,7 @@ header {
 /** main */
 main {
     width: 100%;
-    
+
     text-align: center;
     margin: 0 auto;
     position: relative;
@@ -115,7 +115,8 @@ main {
     left: 0;
     /* height: 100vh; */
 }
-.bg-color-sez1{
+
+.bg-color-sez1 {
     background-color: rgba(49, 97, 224, 255);
 }
 
@@ -137,7 +138,7 @@ main {
 
 .title-main h1 {
     font-size: 45px;
-    
+
 }
 
 /* sezione 1 */
@@ -184,7 +185,7 @@ main {
     padding: 3% 2%;
     font-size: 18px;
     text-shadow: 1px 1px 2px;
-border: none;
+    border: none;
 }
 
 /* .para{
@@ -205,9 +206,9 @@ border: none;
     justify-content: center; */
 }
 
-.col-60-img{
+.col-60-img {
     object-fit: cover;
-  /*   position: relative;
+    /*   position: relative;
     top:18%; */
 
 }
@@ -219,22 +220,117 @@ border: none;
 }
 
 /** sezione 2 */
-.container-title-sez2{
+.container-title-sez2 {
     width: 100%;
-    height: 900px;
     display: flex;
     justify-content: center;
     align-content: center;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
-.col-title-sez2{
+/* .col-title-sez2 {} */
+
+.title-sez2 {
+    font-size: 18px;
+}
+
+.radio {
+    text-align: left;
+    padding-top: 6%;
+}
+
+/* 3 colonne */
+.container-3col {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-content: center;
+    padding-top: 5%;
+    margin: 0 auto;
+}
+
+.row-3col {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.col-3col {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.col-30-3col {
+    width: 30%;
+    justify-content: center;
+    border-color: black;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.col-top {
+    border-bottom: 1px solid black;
+    padding: 2%;
+}
+
+.col-top p {
+    margin: 0 auto;
 
 }
 
-.title-sez2{
-    padding-top: 5px;
+.col-top p i {
+    margin: 1%;
+
 }
+
+.content-3col {
+    text-align: left;
+    position: relative;
+    left: 12%;
+}
+
+.titolo-3col {
+    margin-top: 10%;
+
+}
+
+.prezzo-3col {
+    font-size: 18px;
+    position: absolute;
+    top: 2.5em;
+}
+
+.prezzo-3col p {
+   line-height: 33px;
+}
+
+.lightgrey-3col {
+    color: rgb(174, 164, 164);
+
+}
+
+.opzioni-3col{
+
+}
+
+.utente{
+
+}
+
+.archi-3col{
+    
+}
+
+.funz-3col{
+
+}
+
+
 
 /** footer */
 footer {
