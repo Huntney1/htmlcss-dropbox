@@ -18,7 +18,6 @@
 /*? font grassetto */
 .font-wei-bold:hover {
     font-weight: bold;
-
 }
 
 /** 1350 * 850 */
@@ -34,6 +33,7 @@ header {
     align-content: center;
     color: black;
     max-width: 1300px;
+    margin: 0 auto;
 }
 
 .row-header {
@@ -42,6 +42,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .col-logo {
@@ -106,18 +107,32 @@ main {
     height: 60%;
     background-color: rgb(18, 135, 231);
     text-align: center;
+    margin: 0 auto;
 }
 
 .container-title-main {
-
-}
-
-.workin-progres {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
     position: relative;
-    top: 27%;
-    padding: 1%;
+    top: 9%;
+    left: 0;
+
+
 }
+
+.col-main{
+width: 59%;
+
+}
+
+.title-main h1{
+    font-size: 55px;
+padding: 0% 0% 0% 0%;
+
+}
+
+
 
 /** footer */
 footer {
