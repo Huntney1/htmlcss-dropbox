@@ -242,7 +242,7 @@ main {
 /* 3 colonne */
 .container-3col {
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
     display: flex;
     align-content: center;
     padding-top: 5%;
@@ -274,7 +274,7 @@ main {
 }
 
 .col-top {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black; 
     padding: 2%;
 }
 
@@ -315,7 +315,12 @@ main {
 }
 
 .opzioni-3col{
-
+    position: absolute;
+    top: 10em;
+    line-height: 2em;
+    width: 20em;
+    display: inline;
+    text-align: left;
 }
 
 .utente{
@@ -323,11 +328,11 @@ main {
 }
 
 .archi-3col{
-    
+
 }
 
-.funz-3col{
-
+.funz-3col p {
+    
 }
 
 
