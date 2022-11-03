@@ -107,13 +107,16 @@ header {
 /** main */
 main {
     width: 100%;
-    background-color: rgb(60, 154, 231);
+    
     text-align: center;
     margin: 0 auto;
     position: relative;
     top: 0;
     left: 0;
     /* height: 100vh; */
+}
+.bg-color-sez1{
+    background-color: rgba(49, 97, 224, 255);
 }
 
 /* titolo */
@@ -128,17 +131,19 @@ main {
 
 .col-title-main {
     width: 60%;
-    padding-top: 5%;
+    padding-top: 3%;
+    padding-bottom: 1%;
 }
 
 .title-main h1 {
-    font-size: 55px;
-    padding: 0% 0% 0% 0%;
+    font-size: 45px;
+    
 }
 
 /* sezione 1 */
 .container-sez1 {
     width: 100%;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -152,9 +157,9 @@ main {
     margin: 0 auto;
 }
 
-/* colonna 40% */
-.col-40 {
-    width: 39%;
+/* colonna 30% */
+.col-30 {
+    width: 40%;
     /* display: flex;
     text-align: center; */
     text-align: left;
@@ -163,22 +168,23 @@ main {
     font-weight: bolder;
 }
 
-.paragrafo-40 {
-    line-height: 30px;
+.paragrafo-30 {
+    line-height: 25px;
 
 }
 
 .button-sez1 {
     color: white;
-    padding: 6% 0%;
+    padding: 5% 0%;
 }
 
 .button-sez1 button {
     background-color: blue;
     color: white;
     padding: 3% 2%;
-    font-size: 15px;
-
+    font-size: 18px;
+    text-shadow: 1px 1px 2px;
+border: none;
 }
 
 /* .para{
@@ -186,25 +192,48 @@ main {
 } */
 
 .arrow-down i {
-    position: absolute;
-    bottom: 0;
-    font-size: 60px;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    font-size: 50px;
 }
-
-
 
 /* colonna 60% */
 .col-60 {
     width: 59%;
-
     /*    display: flex;
     justify-content: center; */
+}
+
+.col-60-img{
+    object-fit: cover;
+  /*   position: relative;
+    top:18%; */
+
 }
 
 .col-60-img img {
     width: 100%;
     margin: 0 auto;
 
+}
+
+/** sezione 2 */
+.container-title-sez2{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10%;
+}
+
+.col-title-sez2{
+
+}
+
+.title-sez2{
+    padding-top: 5px;
 }
 
 /** footer */
