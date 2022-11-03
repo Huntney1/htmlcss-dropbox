@@ -110,6 +110,7 @@ main {
     margin: 0 auto;
 }
 
+/* titolo */
 .container-title-main {
     display: flex;
     justify-content: center;
@@ -117,22 +118,46 @@ main {
     position: relative;
     top: 9%;
     left: 0;
-
-
 }
 
-.col-main{
-width: 59%;
-
+.col-title-main {
+    width: 59%;
 }
 
-.title-main h1{
+.title-main h1 {
     font-size: 55px;
-padding: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+}
+
+/* sezione 1 */
+.container-40{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.row-40{
+    width: 100%;
+    display: flex;
 
 }
 
+.col-40{
+width: 40%;
+display: flex;
+text-align: center;
+border: 1px solid red;
+}
 
+.col-60{
+    width: 60%;
+    border: 1px solid black;
+}
+
+.col-60-img{
+    background-size: cover;
+}
 
 /** footer */
 footer {
@@ -170,6 +195,7 @@ footer {
 .titolo-footer {
     text-align: left;
     padding-top: 26%;
+    
 }
 
 .lista-footer {
@@ -177,6 +203,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style-type: none;
     padding: 12% 0% 0% 12%;
+}
+
+.lista-footer ul{
+    list-style-type: none;
 }
