@@ -438,7 +438,7 @@ main {
     height: 45em;
     background-image: url(../img/partner.png);
     background-size: cover;
-margin: 0 auto;
+    margin: 0 auto;
 }
 
 .col-40-sez3 {
@@ -451,7 +451,7 @@ margin: 0 auto;
 
 .titolo-40-sez3,
 .parag-40-sez3 {
-   /*  width: 76%; */
+    /*  width: 76%; */
     padding: 2% 0%;
     text-align: left;
     font-weight: 700;
@@ -462,7 +462,7 @@ margin: 0 auto;
 
 } */
 
-.button-sez3{
+.button-sez3 {
     margin: 10% auto;
     padding: 0% 0% 0% 0%;
 }
@@ -485,15 +485,48 @@ margin: 0 auto;
 /** sezione 4 */
 
 
-/** footer */
-footer {
-    background-color: black;
-    color: white;
-    /*  display: flex;
-    align-content: center;
-    justify-content: center; */
+.container-cards-sez4 {
+    width: 100%;
+    height: 73rem;
+    display: flex;
+    padding-top: 10%;
+    margin: 0 auto;
+}
+
+.row-card-sez4 {;
+    border: 1px solid black;
 
 }
+
+.title-sez4 {
+    width: 100%;
+}
+
+.col-card-sez4 {
+    width: calc(100% / 3)
+   
+}
+
+.profilo-card {
+    border: 1px solid red;
+}
+
+.content-sez4 {
+    width: 100%;
+    display: flex;
+    border: 1px solid rgb(243, 10, 173);
+    justify-content: center;
+}
+
+/** footer */
+/* footer {
+    background-color: black;
+    color: white; /
+
+    /*  display: flex;
+    align-content: center;
+    justify-content: center;
+ }*/
 
 .row-footer {
     background-color: burlywood;
