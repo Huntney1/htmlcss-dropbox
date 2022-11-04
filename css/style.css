@@ -144,7 +144,7 @@ main {
 /* sezione 1 */
 .container-sez1 {
     width: 100%;
-    height: 80vh;
+    height: 53vh;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -223,15 +223,23 @@ main {
 .container-title-sez2 {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-content: center;
-    padding-top: 5%;
+  
 }
 
-/* .col-title-sez2 {} */
+.col-title-sez2 {
+   text-align: center;
+   padding-top: 10%;
+   position: relative;
+    right: 16rem;
+
+}
 
 .title-sez2 {
     font-size: 18px;
+    margin-top: 3%;
+    margin-left: 0%;
 }
 
 .radio {
@@ -242,7 +250,7 @@ main {
 /* 3 colonne */
 .container-3col {
     width: 100%;
-    /* height: 600px; */
+    /* height: 58rem; */
     display: flex;
     align-content: center;
     padding-top: 5%;
@@ -250,7 +258,7 @@ main {
 }
 
 .row-3col {
-    width: 100%;
+    width: 90%;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -274,7 +282,7 @@ main {
 }
 
 .col-top {
-    border-bottom: 1px solid black; 
+    border-bottom: 1px solid black;
     padding: 2%;
 }
 
@@ -290,23 +298,27 @@ main {
 
 .content-3col {
     text-align: left;
-    position: relative;
-    left: 12%;
+
 }
 
-.titolo-3col {
+.row-content-3col {
+    padding: 15%;
+    line-height: 33px;
+
+}
+
+/* .titolo-3col {
     margin-top: 10%;
 
-}
+} */
 
 .prezzo-3col {
     font-size: 18px;
-    position: absolute;
-    top: 2.5em;
 }
 
 .prezzo-3col p {
-   line-height: 33px;
+    line-height: 33px;
+    font-weight: bold
 }
 
 .lightgrey-3col {
@@ -314,27 +326,45 @@ main {
 
 }
 
-.opzioni-3col{
-    position: absolute;
-    top: 10em;
+.opzioni-3col {
     line-height: 2em;
     width: 20em;
     display: inline;
     text-align: left;
 }
 
-.utente{
+/* .utente {}
+
+.archi-3col {}
+
+.funz-3col p {}
+
+.button-3col {} */
+
+.bottom-3col ul{
+    list-style-type: none;
+}
+.bottom-3col ul i{
+    color: blue;
+}
+
+/* sezione team */
+.container-team{
+    width: 100%;
+    height: 58rem;
+    display: flex;
+    align-content: center;
+    padding-top: 5%;
+    margin: 0 auto;
+}
+
+.row-team{
 
 }
 
-.archi-3col{
+.col-team{
 
 }
-
-.funz-3col p {
-    
-}
-
 
 
 /** footer */
