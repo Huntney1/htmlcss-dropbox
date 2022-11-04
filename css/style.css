@@ -349,8 +349,8 @@ main {
 
 /* sezione team */
 .container-team {
-    width: 100%;
-   /*  height: 28rem; */
+    width: 85.8%;
+    /*  height: 28rem; */
     display: flex;
     align-content: center;
     justify-content: center;
@@ -360,52 +360,129 @@ main {
 
 .row-team {
     border: 1px solid black;
-    width: 87rem;
+    width: 100%;
     margin: 0 auto;
 }
 
 .col-team {
-width: 100%;
+    width: 100%;
 }
 
 .title-team {
- border-bottom: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 1%;
 }
 
-.between-team{
+.between-team {
     width: 100%;
-display: flex;
-justify-content: space-between;
-text-align: center;
-padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 3%;
 }
 
 .button-team {
     width: 13em;
-background-color: rgb(70, 109, 252);
-color: white;
-padding: 5% 0%;
-font-size: 18px;
-text-shadow: 1.5px 1.5px 2px black;
-border: none;
+    background-color: rgb(70, 109, 252);
+    color: white;
+    padding: 5% 0%;
+    font-size: 18px;
+    /* text-shadow: 1.5px 1.5px 2px black; */
+    border: none;
 }
 
 .para-team {
     text-align: left;
     padding-left: 3%;
-    
+
 }
 
-.bolder-team{
+.bolder-team {
     font-weight: bolder;
     font-size: 1.1rem;
 }
 
-.parag{
+.parag {
     margin-top: 2em;
     margin-bottom: 2rem;
 }
+
+/** sezione 3 */
+.container-sez3 {
+    width: 100%;
+    height: 73rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 10%;
+    margin: 0 auto;
+}
+
+.row-sez3 {
+    display: flex;
+    /*  width: 100%; 
+    /* border: 1px solid red; */
+}
+
+.col-60-sez3 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    /*  object-fit: cover;*/
+}
+
+.col-60-sez3 .image-60 {
+    width: 100%;
+    background-image: url(../img/partner.png);
+    background-size: cover;
+
+}
+
+.col-40-sez3 {
+    margin: 0 auto;
+    width: 40%;
+    padding: 11% 5% 0% 5%;
+    line-height: 2em;
+
+}
+
+.titolo-40-sez3,
+.parag-40-sez3 {
+   /*  width: 76%; */
+    padding: 2% 0%;
+    text-align: left;
+    font-weight: 700;
+
+}
+
+/* .parag-40-sez3{
+
+} */
+
+.button-sez3{
+    margin: 10% auto;
+    padding: 0% 0% 0% 0%;
+}
+
+.button-dimension-sez3 {
+    width: 13em;
+    height: 3em;
+    background-color: white;
+    border: 1.5px solid black;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* text-shadow: 1.5px 1.5px 2px black; */
+}
+
+
+
 
 /** footer */
 footer {
