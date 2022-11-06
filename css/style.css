@@ -200,7 +200,7 @@ main {
     display: inline-block;
     position: relative;
     top: 50px;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 /* colonna 60% */
@@ -227,7 +227,7 @@ main {
 .container-title-sez2 {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-content: center;
 
 }
@@ -235,6 +235,7 @@ main {
 .col-title-sez2 {
     text-align: center;
     padding-top: 10%;
+    margin-left: 6rem;
 
 
 }
@@ -247,6 +248,11 @@ main {
 
 .radio {
     padding-top: 6%;
+    text-align: left;
+}
+
+.radio #padding-span{
+    padding-left: 5%;
 }
 
 /* 3 colonne */
@@ -290,6 +296,8 @@ main {
 
 .col-top p {
     margin: 0 auto;
+    text-align: center;
+    font-weight: bolder;
 
 }
 
@@ -375,6 +383,12 @@ main {
 .title-team {
     border-bottom: 1px solid black;
     padding: 1%;
+    text-align: center;
+}
+
+.title-team p{
+    text-align: center;
+    font-weight: bolder;
 }
 
 .between-team {
@@ -519,7 +533,8 @@ h2,
 p {
     text-align: left;
     line-height: 1.7em;
-    margin: 2%;
+    /* margin: 2%; */
+   /*  font-size: 80%; */
 }
 
 /* .card-text{
@@ -551,21 +566,116 @@ p {
     background-image: url(../img/business-feature-security.png);
 }
 
-/** sezione 5 */
+/* sezione intermezzo 4/5  */
 .dropbusi {
-    border: 1px solid black;
-    width: 75%;
+    /*  border: 1px solid black; */
+    width: 70%;
     /* height: 10em; */
     display: block;
     text-align: left;
     margin-left: 2%;
 }
 
-.dropbusi h1{
-    font-size: 3em;
+.dropbusi h1 {
+    font-size: 4em;
     line-height: 1.3em;
-    padding-bottom: 3%;
+    padding-bottom: 8%;
 }
+
+/** sezione 5 */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.squares-section {
+    display: flex;
+    margin: 1% auto;
+}
+
+.square {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    display: flex;
+
+}
+
+.square-sm {
+    width: 50%;
+    height: 50%;
+    position: relative;
+
+}
+
+.square-logo {
+    height: 100%;
+    border: 1px solid black;
+}
+
+.square-img {
+    width: 50%;
+
+
+}
+
+
+
+/* square img logo */
+
+.log-5 {
+    background-image: url(../img/world_bicycle_relief.svg);
+}
+
+.log-6 {
+    background-image: url(../img/hearst_corp.svg);
+}
+
+.log-7 {
+    background-image: url(../img/lonely_planet.svg);
+}
+
+.log-8 {
+    background-image: url(../img/clear_channel.svg);
+}
+
+.bg-cover{
+    background-size: cover;
+}
+
+
+/* square color */
+
+.bg-lightgray {
+    background-color: lightgray;
+}
+
+.bg-lightgreen {
+    background-color: lightgreen;
+}
+
+.bg-lightblue {
+    background-color: lightblue;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-aqua {
+    background-color: rgba(0, 147, 206, 255);
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-bordeaw{
+    background-color: rgba(97,8,43,255);
+}
+
 
 
 
