@@ -451,12 +451,12 @@ main {
     /*  object-fit: cover;*/
 }
 
-.col-60-sez3 .image-60 {
-    width: 100%;
+.col-60-sez3 #image-60 {
+    width: 60%;
     /*  height: 45em; */
     background-image: url(../img/partner.png);
     background-size: cover;
-    margin: 2%;
+    margin: 3%;
 }
 
 .col-40-sez3 {
@@ -464,13 +464,15 @@ main {
     width: 40%;
     padding: 11% 5% 0% 5%;
     line-height: 2em;
-
+    position: relative;
+    right: 5%;
+    bottom: 8%;
 }
 
 .titolo-40-sez3,
 .parag-40-sez3 {
     /*  width: 76%; */
-    padding: 2% 0%;
+    padding: 0 auto;
     text-align: left;
     font-weight: 700;
 
@@ -632,18 +634,18 @@ p {
 
 .divisore {
     width: 25%;
-    border: 1px solid rgba(231,231,232,255);
-    background-color: rgba(231,231,232,255);
+    border: 1px solid rgba(231, 231, 232, 255);
+    background-color: rgba(231, 231, 232, 255);
     padding: 0.2%;
     position: absolute;
     top: 36%;
-   left: 7%;
+    left: 7%;
 
 }
 
 .p-grey-sque {
     position: absolute;
-     top: 45%;
+    top: 45%;
     left: 7%;
 }
 
@@ -671,7 +673,7 @@ p {
 }
 
 .log-2-sque {
- width: 20rem;
+    width: 20rem;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -682,8 +684,8 @@ p {
 }
 
 .log-3-sque {
- width: 20rem;
- height: 2rem;
+    width: 20rem;
+    height: 2rem;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -694,7 +696,7 @@ p {
 }
 
 .log-4-sque {
- width: 20rem;
+    width: 20rem;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -705,7 +707,7 @@ p {
 }
 
 .log-5-sque {
- width: 20rem;
+    width: 20rem;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -716,7 +718,7 @@ p {
 }
 
 .log-6-sque {
- width: 20rem;
+    width: 20rem;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -727,7 +729,7 @@ p {
 }
 
 .log-7-sque {
- width: 20rem;
+    width: 20rem;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -738,7 +740,7 @@ p {
 }
 
 .log-8-sque {
- width: 20rem;
+    width: 20rem;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -791,9 +793,42 @@ p {
     background-color: rgba(97, 8, 43, 255);
 }
 
+/* main text  final page*/
+#container-text{
+    background-color: rgba(180, 208, 231, 255);
+    margin-top: -1%;
+    
+}
+
+#dropbusi2 {
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#dropbusi2 h1{
+    text-align: left;
+    font-size: 2.5em;
+    padding-top: 7%;
+    padding-right: 1%;
+    color: rgba(97, 8, 43, 255);
+
+}
+
+#dropbusi2 span{
+width: 20%;
+position: absolute;
+left: 78%;
+}
 
 
-
+#dropbusi2 button{
+    width: 100%;
+    height: 2em;
+    font-size: 100%;
+    text-align: center;
+    }
 
 /** footer */
 /* footer {
