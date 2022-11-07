@@ -623,7 +623,7 @@ p {
     text-align: left;
 }
 
-.square-img1 {
+.log-center-sque img {
     width: 60%;
     position: absolute;
     top: 8%;
@@ -657,42 +657,97 @@ p {
 
 
 /* square logo */
-/* .log-center-sque{
 
-}
 
 .log-1-sque {
-
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .log-2-sque {
-
+ width: 20rem;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .log-3-sque {
-
+ width: 20rem;
+ height: 2rem;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .log-4-sque {
-
+ width: 20rem;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .log-5-sque {
-
+ width: 20rem;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .log-6-sque {
-
+ width: 20rem;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .log-7-sque {
-
+ width: 20rem;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .log-8-sque {
-
+ width: 20rem;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
- */
+
 /* .bg-cover{
     background-size: cover;
 }
