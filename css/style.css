@@ -251,7 +251,7 @@ main {
     text-align: left;
 }
 
-.radio #padding-span{
+.radio #padding-span {
     padding-left: 5%;
 }
 
@@ -386,7 +386,7 @@ main {
     text-align: center;
 }
 
-.title-team p{
+.title-team p {
     text-align: center;
     font-weight: bolder;
 }
@@ -534,7 +534,7 @@ p {
     text-align: left;
     line-height: 1.7em;
     /* margin: 2%; */
-   /*  font-size: 80%; */
+    /*  font-size: 80%; */
 }
 
 /* .card-text{
@@ -608,56 +608,112 @@ p {
 
 .square-logo {
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .square-img {
     width: 50%;
 
+}
+
+/* squares center */
+.log-center-sque {
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+
+.square-img1 {
+    width: 60%;
+    position: absolute;
+    top: 8%;
+    left: 7%;
+}
+
+.divisore {
+    width: 25%;
+    border: 1px solid rgba(231,231,232,255);
+    background-color: rgba(231,231,232,255);
+    padding: 0.2%;
+    position: absolute;
+    top: 36%;
+   left: 7%;
 
 }
 
-
-
-/* square img logo */
-
-.log-5 {
-    background-image: url(../img/world_bicycle_relief.svg);
+.p-grey-sque {
+    position: absolute;
+     top: 45%;
+    left: 7%;
 }
 
-.log-6 {
-    background-image: url(../img/hearst_corp.svg);
+#p1 {
+    line-height: 23px;
 }
 
-.log-7 {
-    background-image: url(../img/lonely_planet.svg);
+#p2 {
+    padding-top: 5%;
 }
 
-.log-8 {
-    background-image: url(../img/clear_channel.svg);
+
+/* square logo */
+/* .log-center-sque{
+
 }
 
-.bg-cover{
+.log-1-sque {
+
+}
+
+.log-2-sque {
+
+}
+
+.log-3-sque {
+
+}
+
+.log-4-sque {
+
+}
+
+.log-5-sque {
+
+}
+
+.log-6-sque {
+
+}
+
+.log-7-sque {
+
+}
+
+.log-8-sque {
+
+}
+ */
+/* .bg-cover{
     background-size: cover;
 }
-
+ */
 
 /* square color */
 
 .bg-lightgray {
-    background-color: lightgray;
+    background-color: rgba(245, 245, 245, 255);
 }
 
 .bg-lightgreen {
-    background-color: lightgreen;
+    background-color: rgba(162, 211, 155, 255);
 }
 
 .bg-lightblue {
-    background-color: lightblue;
+    background-color: rgba(180, 208, 231, 255);
 }
 
 .bg-blue {
-    background-color: blue;
+    background-color: rgba(13, 36, 129, 255);
 }
 
 .bg-aqua {
@@ -665,15 +721,19 @@ p {
 }
 
 .bg-red {
-    background-color: red;
+    background-color: rgba(213, 0, 31, 255);
+}
+
+.bg-orangered {
+    background-color: rgba(255, 28, 28, 255);
 }
 
 .bg-yellow {
-    background-color: yellow;
+    background-color: rgba(255, 216, 48, 255);
 }
 
-.bg-bordeaw{
-    background-color: rgba(97,8,43,255);
+.bg-bordeaw {
+    background-color: rgba(97, 8, 43, 255);
 }
 
 
