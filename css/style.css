@@ -729,7 +729,7 @@ p {
 }
 
 .log-7-sque {
-    width: 20rem;
+    width: 100%;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -740,7 +740,7 @@ p {
 }
 
 .log-8-sque {
-    width: 20rem;
+    width: 100%;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -801,7 +801,7 @@ p {
 }
 
 #dropbusi2 {
-    width: 100%;
+  /*   width: 100%; */
    display: flex;
    justify-content: space-between;
    align-items: center;
