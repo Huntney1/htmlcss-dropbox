@@ -15,9 +15,9 @@
     padding: 1%;
 }
 
-.padding-sez {
+/* .padding-sez {
     padding: 4%;
-}
+} */
 
 /*? font grassetto */
 .font-wei-bold:hover {
@@ -662,7 +662,7 @@ p {
 
 
 .log-1-sque {
-    width: 20rem;
+    width: 100%;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -673,7 +673,7 @@ p {
 }
 
 .log-2-sque {
-    width: 20rem;
+    width: 100%;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -684,7 +684,7 @@ p {
 }
 
 .log-3-sque {
-    width: 20rem;
+    width: 100%;
     height: 2rem;
     display: flex;
     justify-content: center;
@@ -696,7 +696,7 @@ p {
 }
 
 .log-4-sque {
-    width: 20rem;
+    width: 100%;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -707,7 +707,7 @@ p {
 }
 
 .log-5-sque {
-    width: 20rem;
+    width: 100%;
     display: flex;
     justify-content: center;
     position: absolute;
